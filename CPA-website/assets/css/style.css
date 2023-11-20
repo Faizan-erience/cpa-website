@@ -28,6 +28,7 @@
 }
 
 
+
 #currency,
 #language {
     background: none;
@@ -39,7 +40,6 @@
 .navbar-brand {
     font-size: 1.8rem;
 }
-
 
 .navbar-brand:hover{
     text-decoration: none;
@@ -55,6 +55,12 @@
 .nav-link:hover{
     color: #00BFFF;
     text-decoration: none;
+}
+.hero-section{
+    margin: 6rem 0;
+    background: #f3f5fa;
+    padding-bottom: 10%;
+
 }
 .under-line{
     content: "";
@@ -83,8 +89,22 @@
 .help-features a:hover{
     opacity: 0.7;
 }
+#about ul li i{
+    color:#28a745;
+
+}
+#about ul li{
+    list-style-type: none;
+
+}
+#about{
+  
+}
+#about ul{
+    padding: 0;
+}
 @media (max-width:768px){
-    h1,p{
+    h1,.lead{
         text-align: center;
 
     }
@@ -96,5 +116,10 @@
     .hero-section .row{
         flex-direction: column-reverse;
         padding: 0;
+    }
+
+    #about,p{
+        text-align: left;
+
     }
 }
